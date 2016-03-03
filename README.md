@@ -136,7 +136,7 @@
 ## Contributor ##
 * bumblebee team 
   - [Jeff Zhu](https://github.com/kfchu)
-  - [YinsongMa](https://github.com/eyinsma)
+  - [Yinsong Ma](https://github.com/eyinsma)
   - [Kasper Deng](https://github.com/kasperdeng)
 
 * [Shouxi Huang](https://github.com/hsx1612727380)
