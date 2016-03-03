@@ -29,7 +29,7 @@
 
 * Get config items method
   - Login the wechat from browser, use the wechatId which is used for hubot
-  - Capture data from webwxinit api from browser debug mode
+  - ** Capture data from webwxinit api from browser debug mode **
 
 * url
   - baseUrl -- wx/wx2
@@ -77,6 +77,10 @@
   - Try its web APIs by curl
   - Analyze the parameters and what it is
   - Analyze the wxApp.js
+* Notes:
+  - ** The hubot wechat on the mobile side keeps online is preferred. **
+  - Reason: WeChat server disconnects your hubot with websync failure after 3~4 days. 
+    But hubot works again once login mobile wechat app again.
 
 ## The Adapter Software Hierachy ##
 * Operations in our Wechat-Hubot
