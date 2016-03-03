@@ -1,0 +1,26 @@
+{
+  "name": "hubot-milo",
+  "version": "1.0.0",
+  "description": "This is wechat adapter for hubot",
+  "main": "./src/hubot-wx.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hubot",
+    "adapter"
+  ],
+  "author": "kasperdeng <kasper.deng@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "js-yaml": ">= 3.0.0",
+    "lodash": "^3.10.1",
+    "log": "1.4.0",
+    "parent-require": "^1.0.0",
+    "sync-request": "^2.1.0"
+  },
+  "devDependencies": {
+    "coffee-script": ">=1.2.0",
+    "coffeelint": "^1.14.1"
+  }
+}

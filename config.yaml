@@ -1,0 +1,56 @@
+# WX configuration
+#------------------------------------------------------------------------------------------
+# Config for request fields and WX mandatory fields (as below) in sending message out
+# - header
+#   + Cookie
+# - BaseRequest
+#   + Uin
+#   + Sid
+#   + Skey
+#   + DeviceID
+#------------------------------------------------------------------------------------------
+
+# Wx Urls #
+baseUrl: "https://wx2.qq.com/cgi-bin/mmwebwx-bin" #wx/wx2
+baseUploadUrl: "https://file2.wx.qq.com/cgi-bin/mmwebwx-bin"
+getContactUrl: "/webwxgetcontact"
+batchGetContactUrl: "/webwxbatchgetcontact"
+sendMsgUrl: "/webwxsendmsg"
+getWebwxInit: "/webwxinit"
+getWebwxSync: "/webwxsync"
+getWebwxOplog: "/webwxoplog"
+syncCheck: "/synccheck"
+webWxUploadMedia: "/webwxuploadmedia"
+webwxsendmsgimg: "/webwxsendmsgimg"
+
+contentType: "application/json;charset=UTF-8"
+connection: "keep-alive"
+
+cookie: ""
+
+Uin: ""
+Sid: ""
+Skey: ""
+DeviceID: ""
+
+listenOnAllGroups: true
+listenGroupNameList: [""]
+
+# Media
+imageDir: ""
+imageDirForReply: ""
+sendImageGroupNameList: [""]
+
+# input maintainer name
+# Hubot will notify maintainer if encounter issues
+maintainerName: "Kasper" 
+
+foreverDaemon: ture
+
+# WxHubot Configurations, unit: ms #
+webWxSyncInterval: 1500
+syncCheckInterval: 30000
+reportHealthInterval: 21600000
+
+logToFile: false
+wxLogPath: "./node_modules/hubot-ece/wxhubot.log"
