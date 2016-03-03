@@ -150,7 +150,6 @@
 * Unit test
 
 ## Reference ##
-* [hubot-ece git repo](ssh://<eid>@gerritforge.lmera.ericsson.se:29418/innovation.git)
 * [Hubot Official](https://hubot.github.com)
 * [About WxChat Web API](https://github.com/hexcola/wxplugin/blob/master/protocal_2.md)
 * [How to write your adapter?](https://hubot.github.com/docs/adapters/development/)
