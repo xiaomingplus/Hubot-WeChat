@@ -1,5 +1,5 @@
 {
-  "name": "hubot-milo",
+  "name": "hubot-wechat",
   "version": "1.0.0",
   "description": "This is wechat adapter for hubot",
   "main": "./src/hubot-wx.coffee",
