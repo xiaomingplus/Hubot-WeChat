@@ -1,11 +1,8 @@
 {
-  "name": "hubot-wechat",
+  "name": "hubot-weixin",
   "version": "1.0.0",
-  "description": "This is wechat adapter for hubot",
+  "description": "This is wechat/weixin adapter for hubot",
   "main": "./src/hubot-wx.coffee",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "hubot",
     "adapter",
