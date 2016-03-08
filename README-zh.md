@@ -1,4 +1,4 @@
-# Hubot-WeChat
+# Hubot-Weixin
 * 适配微信，集成Hubot
 * 目标
   - 一次登录，任何地方/时间/场合运行。
@@ -28,7 +28,7 @@
 * 手机端：Hubot的微信要添加该微信群或联系人到你的联系人列表。
 
 ### config.yaml ###
-* Hubot-wechat适配器提供了一个config.yaml文件，用来配置你的适配器，大部分配置项用于启动时登录所用。
+* Hubot-weixin适配器提供了一个config.yaml文件，用来配置你的适配器，大部分配置项用于启动时登录所用。
 * 众所周知，目前微信网页版的登录是通过扫描二维码的方式。目前这部分工作需要用户手工来做。
   1. 用chrome或者firefox的调试模式，扫描微信的二维码登录网页版一次。
   2. 在调试模式下，从**webwxinit api** 抓取以下数据
@@ -54,8 +54,7 @@
   - 默认值: 1500 毫秒，1.5秒 
 
 * syncCheckInterval
-  - 该配置项用于配置定时发送心跳信息到微信服务器。
-  - To trick WX server the login persion still on the web wechat
+  - 该配置项用于配置定时发送心跳信息到微信服务器
   - 默认值: 为了和目前微信网页版的行为保持一致，设置为30秒
 
 * listenOnAllGroups
@@ -69,16 +68,16 @@
 
 ### 启动 ###
 
-#### 通过 npm 安装 hubot-wechat 并启动Hubot ####
+#### 通过 npm 安装 hubot-weixin 并启动Hubot ####
 * 首先，你肯定是要有hubot的(这个不在该文档说明了。请参考[Hubot官网](https://hubot.github.com))
-* 把`hubot-wechat`作为依赖加到hubot的package.json
+* 把`hubot-weixin`作为依赖加到hubot的package.json
 * 在你的Hubot的目录下，运行 `npm install`
-* 启动hubot: `bin/hubot -a wechat`
+* 启动hubot: `bin/hubot -a weixin`
 
-#### 通过 npm link 安装 hubot-wechat 并启动Hubot ####
-* 从当前github下载hubot-wechat的源码到指定目录
-* 在Hubot的node_modules的目录下创建软链接到你的hubot-wechat目录 `npm link <your hubot-wechat dir>`
-* 启动hubot: `bin/hubot -a wechat`
+#### 通过 npm link 安装 hubot-weixin 并启动Hubot ####
+* 从当前github下载hubot-weixin的源码到指定目录
+* 在Hubot的node_modules的目录下创建软链接到你的hubot-weixin目录 `npm link <your hubot-weixin dir>`
+* 启动hubot: `bin/hubot -a weixin`
 
 ## 设计 & 实现 ##
 * 遇到的问题

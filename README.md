@@ -1,6 +1,7 @@
-# Hubot-WeChat
+# Hubot-Weixin
 * [中文版](https://github.com/KasperDeng/Hubot-WeChat/blob/master/README-zh.md)
-* This is wechat adapter for hubot.
+* This is wechat/weixin adapter for hubot.
+* Notation: wechat is another name for the popular App weixin in China
 * Goal
   - login once, run anywhere, anytime
   - Make life easier and let bot do something for us in backend
