@@ -1,4 +1,5 @@
 # Hubot-WeChat
+* [中文版](https://github.com/KasperDeng/Hubot-WeChat/blob/master/README-zh.md)
 * This is wechat adapter for hubot.
 * Goal
   - login once, run anywhere, anytime
@@ -110,11 +111,6 @@
     @emit 'connected'
     ~~~
 * Implement a callback to call hubot's receive method to get the incoming message
-	
-## How to write Your Scripts? ##
-* Please refer to the scirpts in repo
-* Follow the coding style
-* The `msg` in the scripts provides the http asycn function to get your data from open APIs
 
 ## SDE ##
 * [Getting Started With Hubot](https://hubot.github.com/docs/) on Windows/Unix-Like
@@ -132,6 +128,11 @@
 * Programming Language
   - coffeeScript
   - coffeelint to checkstyle 
+
+## How to write Your Scripts? ##
+* Please refer to the scirpts in repo
+* Follow the coding style
+* The `msg` in the scripts provides the http asycn function to get your data from open APIs
 
 ## Test Your Script ##
 * With shell adapter
@@ -155,5 +156,5 @@
 * [How to write your adapter?](https://hubot.github.com/docs/adapters/development/)
 
 ## License ##
-* See the [LICENSE](https://github.com/github/hubot/blob/master/LICENSE.md) file for license rights and limitations (MIT).
+* See the [LICENSE](https://github.com/KasperDeng/Hubot-WeChat/blob/master/LICENSE) file for license rights and limitations (MIT).
 
