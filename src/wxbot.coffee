@@ -167,18 +167,19 @@ class WxBot
   sendLatestImage: () ->
     mediaDir = config.imageDir
 
-    # Find the latest media in dir
-    fs.watch mediaDir, (event, filename) =>
-      if event isnt "rename" || not filename
-        return
-      filePath = mediaDir + filename
-      for groupName in config.sendImageGroupNameList
-        log.debug "to send image to group: #{groupName}"
-        toUserNameGroup = _.invert @groupInfo
-        try
-          @webWxUploadAndSendMedia @myUserName, toUserNameGroup[groupName], filePath
-        catch error
-          log.error error
+    if mediaDir
+      # Find the latest media in dir
+      fs.watch mediaDir, (event, filename) =>
+        if event isnt "rename" || not filename
+          return
+        filePath = mediaDir + filename
+        for groupName in config.sendImageGroupNameList
+          log.debug "to send image to group: #{groupName}"
+          toUserNameGroup = _.invert @groupInfo
+          try
+            @webWxUploadAndSendMedia @myUserName, toUserNameGroup[groupName], filePath
+          catch error
+            log.error error
 
   _handleMessage: (message) ->
     content = message.Content
