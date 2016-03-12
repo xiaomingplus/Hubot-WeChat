@@ -45,7 +45,7 @@ sendImageGroupNameList: [""]
 # Hubot will notify maintainer if encounter issues
 maintainerName: "Kasper" 
 
-foreverDaemon: ture
+foreverDaemon: true
 
 # WxHubot Configurations, unit: ms #
 webWxSyncInterval: 1500
