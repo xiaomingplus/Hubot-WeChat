@@ -53,4 +53,4 @@ syncCheckInterval: 30000
 reportHealthInterval: 21600000
 
 logToFile: false
-wxLogPath: "./node_modules/hubot-ece/wxhubot.log"
+wxLogPath: "./node_modules/hubot-weixin/wxhubot.log"
