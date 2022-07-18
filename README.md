@@ -148,7 +148,7 @@
 * [Shouxi Huang](https://github.com/hsx1612727380)
 
 ## TODO ##
-* No much functions to be implemented, most focus on scripting
+* No much functions to be implemented, most are focusing on scripting
 * Unit test
 
 ## Reference ##
